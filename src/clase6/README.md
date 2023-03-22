@@ -2,12 +2,15 @@
 
 # Testing
 
-Implemente una clase **“Calculadora”** que tenga cuatrométodos, uno por cada operación
-aritmética básica (suma, resta, multiplicación y división), respetando las siguientes firmas:
+Implemente una clase **“Calculadora”** que tenga cuatrométodos, uno por cada operación aritmética básica (suma, resta, multiplicación y división), respetando las siguientes firmas:
+
+
 ● double sumar(double unNumero, double otroNumero);
 ● double restar(double unNumero, double otroNumero);
 ● double multiplicar(double unNumero, double otroNumero);
 ● double dividir(double unNumero, double otroNumero);
+
+
 
 Luego de haber implementado la Calculadora, realice los siguientes casos de prueba:
 

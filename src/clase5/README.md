@@ -1,8 +1,6 @@
-﻿
+﻿# Clase 5 - “Desarrollador Java inicial”
 
-Clase 5 - “Desarrollador Java inicial”
-
-Introducción a la programación OO
+## Introducción a la POO
 
 1\. Implemente usted mismo el ejemplo visto en clase de “carrito de compras”: una clase Producto (que pueda tener hasta 3 items), otra ItemCarrito, otra Carrito y otra Descuento, con 2 subclases.
 
@@ -11,14 +9,13 @@ Introducción a la programación OO
 cant precioUnitario producto
 
 ```java
-1	40	jabón en polvo
+1    40    jabón en polvo
 
-3	10	esponjas
+3    10    esponjas
 
-2	100	chocolates
+2    100    chocolates
 
 carrito.precio() == 270
 ```
+
 3\. Suba el proyecto / ejercicios a GIT
-
-
