@@ -28,28 +28,27 @@ public class CalculadoraTest {
 
 	@Test
 	public void testSumar() {
-		double unNumero = 150, otroNumero = 180;
 		Calculadora calc = new Calculadora();
-		calc.dividir(calc.sumar(unNumero, otroNumero),3);
+		assertEquals(110,calc.dividir(calc.sumar(150, 180), 3),0.0f);
+		//assertEquals(2700,calc.multiplicar(calc.sumar(70, 40), 25),0.0f);
 	}
 
 	@Test
 	public void testRestar() {
-		double unNumero = 90, otroNumero = 50;
 		Calculadora calc = new Calculadora();
-		calc.restar(calc.multiplicar(unNumero, otroNumero),15);
+		assertEquals(605,calc.multiplicar(calc.restar(90, 50), 15), 0.0f);
 	}
 
 	@Test
 	public void testMultiplicar() {
-		double unNumero = 80, otroNumero = 3;
 		Calculadora calc = new Calculadora();
-		calc.multiplicar(unNumero, otroNumero);
+		assertEquals(240,calc.multiplicar(80, 3),0.0f);
+		
 	}
 
 	@Test
 	public void testDividir() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 }
